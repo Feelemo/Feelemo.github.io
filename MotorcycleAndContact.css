@@ -1,0 +1,235 @@
+.wrapper{width:100%;
+	background-color:gray;
+	overflow:hidden;
+	position:sticky;
+	top:0;
+}
+
+nav a {text-decoration:none;
+	padding: 2.3%;
+	font-size:19px;
+	float:right;
+	text-align:center;}
+
+nav a:link {color:white; }
+
+nav a:hover {color:blue;
+	     background-color:red;}
+
+.picture {height:10%;
+	  width:20%;
+	float:left;
+	 }
+
+h1 { padding-left:20%;}
+
+li {margin-left:5%;
+	word-spacing:5px;}
+
+.tab { margin-left:5%;}
+
+.roadsign{margin-left:5%;}
+
+dd {font-size:20px;
+	width:50%;
+	margin-left:5%;
+}
+
+body {background-color:#cce6ff;
+	background-size:auto;
+	background-repeat:no-repeat;
+	margin:0;}
+
+.motorcycle {width:82%;
+		height:15%;
+		margin-left:8%;}
+
+.side{margin-left:5%;
+	height:10%;
+	width:25%;}
+
+.brake {margin-left:5%;
+	padding-top:1%;}
+
+.footer{background-color:black;
+	color:white;
+	height:20%;
+	font-size:20px;
+	padding-left:5%;
+	padding-right:2%;
+	padding-top:3%;
+	padding-bottom:2%;
+	word-spacing:6px;}
+
+.footer a{text-decoration:none;
+	color:white;
+	display:block;
+	font-size:20px;
+	width:7.8%;}
+
+.long {padding-top:2%;}
+	
+.footer a:hover{color:green;}
+
+.short {width:3%;
+	padding-top:2%;}
+
+.content{color:white;
+	font-size:20px;}
+
+
+
+.topic {font-size:20px;
+	padding-top:3%;
+	padding-bottom:2%;}
+
+.topic h2 {margin-left:35%;
+	   font-size:30px;}
+
+.questions {margin-left :5%;
+	   font-size:22px;}
+
+.topic li{padding-bottom:1%;
+	font-size:20px;}
+
+.answer {margin-left:5.7%;
+	font-size:20px;
+	padding-top:20px;}
+
+.container {width:100%;
+	height:100%;
+	overflow:hidden;
+	background-color:black;}
+
+.container p {background-color:black;
+		float:right;}
+
+.details {background-color:black;
+	float:left;}
+
+.contact{padding-left:20%;}
+
+.formtwo {margin-left:20%;}
+
+.logopic {padding-top:5%;
+	padding-left:10%;
+	height:60%;
+	width:60%;}
+
+.additional {padding-left:10%;
+		font-size:20px;
+		color:red;}
+
+.back{position:fixed;
+	bottom:5%;
+	right:2%;
+	background-color:black;
+	text-decoration:none;
+	padding:1%;
+	display:none;}
+
+.footerpic {height:30%;
+	  width:40%;
+	float:left;
+	 }
+
+@media only screen and (max-width:480px) {
+	.wrapper{
+	position:static;
+	display:block;
+	float:none;
+	}
+
+	nav a{padding:0;
+	float:none;
+	display:block;}
+	
+	.picture{float:none;
+	width:100%;
+	height:100%;}
+	
+	.motorcycle{
+	display:none;}
+
+	h1 {padding:0;
+	max-width:100%
+	}
+
+	.brake{display:none;}
+
+	.side{display:none;}
+
+	.tab{display:none;}
+	
+	li{width:100%;
+	margin:0;}
+	
+	dd{width:100%;
+	margin:0;}
+	
+	.footer{padding:0;
+	padding:10% 10% 10% 10%;}
+	
+	.topic h2{margin:10% 3% 10% 10%;}
+	
+	.questions{margin:0;
+	padding:5%;}
+	
+	.answer{margin:0%;
+	padding:5%;}
+
+	.roadsign{display:none;}
+}
+
+@media only screen and (min-width : 480px) and (max-width : 1024px) {
+
+	.picture{float:none;
+	width:100%;
+	height:100%;}
+
+	.wrapper{
+	position:static;
+	display:block;
+	float:none;
+	}
+	
+	nav a{padding:0;
+	float:none;
+	display:inline;
+	padding:4%;
+	padding-bottom:8%;}
+	
+	h1 {padding:0;
+	margin:0;
+	width:100%;
+	text-align:center;
+	padding-top:3%;}
+	
+	li{width:100%;
+	margin:0;}
+	
+	.motorcycle{margin:5% 3% 3% 8%;}
+
+	dd{width:100%;
+	margin:0;}
+
+	.footer{padding:0;
+	padding:10% 10% 10% 10%;}
+	
+	.topic h2{margin:5% 3% 5% 7%;}
+	
+	.questions{margin:0;
+	padding:2% 2% 2% 5%;
+	}
+	
+	.answer{margin:0%;
+	padding:2% 2% 2% 5%;
+	}
+
+
+	.roadsign{margin:0;
+	padding:0;
+	width:95%;}
+	
+
+}

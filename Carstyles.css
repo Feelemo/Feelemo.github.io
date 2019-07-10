@@ -1,0 +1,177 @@
+.wrapper{width:100%;
+	background-color:gray;
+	overflow:hidden;
+	position:sticky;
+	top:0;
+}
+
+nav a {text-decoration:none;
+	padding: 2.3%;
+	font-size:19px;
+	float:right;
+	text-align:center;}
+
+nav a:link {color:white; }
+
+nav a:hover {color:blue;
+	     background-color:red;}
+
+.logo {height:10%;
+	  width:20%;
+	float:left;
+	 }
+
+dt{padding-left:4%;padding-top:10px;}
+
+p{padding-left:4%}
+
+h1 { margin-left:3em;text-align:center;}
+
+h4 { margin-left:3em }
+
+li {margin-left:3em;
+	word-spacing:5px;}
+
+.picture { margin-left:2.5em;}
+
+ul li ul li {font-size:20px;
+	width:50%;
+	word-spacing:5px;}
+
+body {background-color:#cce6ff;
+	background-size:auto;
+	background-repeat:no-repeat;
+	margin:0;}
+
+.car 		{width:65%;
+		height:13%;
+		margin-left:15em;}
+
+.side{margin-left:2.5em;
+	height:10%;
+	width:25%;}
+
+.brake {margin-left:2.5em;
+	padding-top:10px;}
+
+.footer{background-color:black;
+	color:white;
+	height:20%;
+	font-size:20px;
+	padding-left:100px;
+	padding-right:20px;
+	word-spacing:6px;}
+
+.footer a{text-decoration:none;
+	color:white;
+	display:block;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:20px;
+	width:7.8%;}
+
+.footer a:hover{color:green;}
+
+.short {width:3%;}
+
+.content{color:white;
+	font-size:20px;
+	padding-top:20px;
+	padding-bottom:20px;}
+
+.back{position:fixed;
+	bottom:5%;
+	right:2%;
+	background-color:black;
+	text-decoration:none;
+	padding:1%;
+	display:none;}
+
+
+
+.topic {font-size:20px;}
+
+.container {width:100%;
+	height:100%;
+	overflow:hidden;
+	background-color:black;}
+
+.container p {background-color:black;
+		float:right;}
+
+.details {background-color:black;
+	float:left;}
+
+
+	@media only screen and (max-width:480px) {
+	.wrapper{
+	position:static;
+	display:block;
+	float:none;
+	}
+
+	nav a{padding:0;
+	float:none;
+	display:block;}
+	
+	.picture{float:none;
+	width:100%;
+	height:100%;}
+	
+	.motorcycle{
+	display:none;}
+
+	h1 {padding:0;
+	max-width:100%
+	}
+	
+	li{width:100%;
+	margin:0;}
+	
+	dd{width:100%;
+	margin:0;}
+	
+	.footer{padding:0;
+	padding:10% 10% 10% 10%;}
+	
+
+	
+}
+
+@media only screen and (min-width : 480px) and (max-width : 1024px) {
+
+	.picture{float:none;
+	width:100%;
+	height:100%;}
+
+	.wrapper{
+	position:static;
+	display:block;
+	float:none;
+	}
+	
+	nav a{padding:0;
+	float:none;
+	display:inline;
+	padding:4%;
+	padding-bottom:8%;}
+	
+	h1 {padding:0;
+	margin:0;
+	width:100%;
+	text-align:center;
+	padding-top:3%;}
+	
+	li{width:100%;
+	margin:0;}
+	
+	.motorcycle{margin:5% 3% 3% 8%;}
+
+	dd{width:100%;
+	margin:0;}
+
+	.footer{padding:0;
+	padding:10% 10% 10% 10%;}
+	
+	
+}
